@@ -42,6 +42,7 @@ const gameEngine = ()=>{
         alert("Game Over. Press any Key to Play Again");
         SnakeArr = [{x:13, y:15}];
         points = 0;
+      score.innerText = `Score - ${points}`
     }
 
     //If you Eat Food
